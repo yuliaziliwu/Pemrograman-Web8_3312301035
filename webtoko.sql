@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 17, 2024 at 12:31 PM
+-- Generation Time: May 22, 2024 at 12:56 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -149,7 +149,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('TZs995Nbczzyf8xto1bs3CcVeAojkeCPoqdTlPub', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiRzQ5YlV6amhlVm5wR3JsT0xOR3RzNHkydWJvVWVoWlV3aGptWEdudCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9saXN0cHJvZHVrIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1715941698);
+('trYH02uOIi4FQw3euM4ExIm8HgJEIh3B14vmAupn', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiTlFSbEZKTnpYcFk2NjZyZkp5cFp2RzJjWFV6Q1V4VlNuV0RjdmVLVCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9saXN0cHJvZHVrP3BhZ2U9OCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1716375121);
 
 -- --------------------------------------------------------
 
@@ -188,7 +188,9 @@ INSERT INTO `tblproduk` (`id`, `nama`, `deskripsi`, `harga`) VALUES
 (17, 'Lash Applicator', 'Aplikasikan bulu mata palsumu dengan cepat menggunakan Pocket Eyelash Applicator. Gunakan ujung silikon berwarna pink lalu tekan dengan lembut pada garis mata. Pengaplikasian yang mudah dan tidak berantakan! ', 73000),
 (18, 'Eyelash Curler TV113', 'Penjepit bulu mata yang terbuat dari kualitas terbaik. Mampu membuat bulu matamu terlihat lebih lentik, dapat digunakan untuk penggunaan sehari-hari atau penggunaan profesional.\r\n', 56900),
 (19, 'Lip Fuller Big Diamond', 'Benefit of This Product:\r\n*Long Lasting Volume-Plumping Lips\r\nMemberikan tampilan bibir lebih bervolume dan plumpy yang tahan lama\r\n*Shiny Lips Like Diamond Glitters\r\nBibir lebih berkilau seperti Diamond Glitters\r\n', 269100),
-(20, 'Brylee Orange Blossom Facial Mask', 'Mengandung Aktivitas tinggi molekul kecil esensi Vitamin C, seiring dengan efisien aktivitas antioksidan, masker ini membantu memutihkan dan mencerahkan kulit wajah, menyamarkan noda hitam, menyamarkan noda bekas jerawat, dan mengemba- likan keelastisitasan kulit.', 5700);
+(20, 'Brylee Orange Blossom Facial Mask', 'Mengandung Aktivitas tinggi molekul kecil esensi Vitamin C, seiring dengan efisien aktivitas antioksidan, masker ini membantu memutihkan dan mencerahkan kulit wajah, menyamarkan noda hitam, menyamarkan noda bekas jerawat, dan mengemba- likan keelastisitasan kulit.', 5700),
+(23, 'test', 'test test test', 9000),
+(24, 'Acne Pore Expert 5x Serum mask (6 pcs)', 'Masker perawatan wajah dengan 5x serum intensif, menyamarkan garis halus dan keriput. Setiap masker diperkaya essence setara 5 botol Firming Serum yang mengandung Peptides, Hyaluronic Acid, Adenosine dan ekstrak Centella Asiatica. Menutrisi secara efektif agar kulit terasa lebih kencang, halus, kenyal dan terhidrasi bahkan sejak pemakaian pertama. Dikembangkan dan disarankan oleh dermatolog Korea', 8999);
 
 -- --------------------------------------------------------
 
@@ -302,7 +304,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `tblproduk`
 --
 ALTER TABLE `tblproduk`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `users`

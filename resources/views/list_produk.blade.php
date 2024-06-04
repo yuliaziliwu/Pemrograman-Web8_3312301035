@@ -39,6 +39,7 @@
                     <th scope="col" class="px-6 py-3">Name</th>
                     <th scope="col" class="px-16 py-3">Description</th>
                     <th scope="col" class="px-2 py-3">Price</th>
+                    <th scope="col" class="px-2 py-3">Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -50,6 +51,13 @@
                     <td class="px-3 py-4">{{ $item->nama }}</td>
                     <td class="px-3 py-4">{{ $item->deskripsi }}</td>
                     <td class="px-3 py-4">Rp.{{ $item->harga }}</td>
+                    <td>
+                        <form action="{{ route('produk.delete', $item->id) }}" method="POST">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" onclick="return confirm('Are you sure you want to delete {{ $item }}?')" class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Delete</button>
+                        </form>
+                    </td>
                 </tr>
                 @endforeach
             </tbody>
@@ -63,7 +71,6 @@
             <div class="text-sm ">{{ $items->links() }}</div>
         </div>
     </div>
-
     {{-- form input produk --}}
         <div class="flex justify-center items-center min-h-screen">
     <div class="card p-4 m-4 justify-center rounded-sm border shadow-lg group relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-red-300 hover:rounded-md duration-200 bg-gradient-to-r w-full max-w-lg dark:border-8 dark:shadow-xl dark:rounded-xl dark:bg-gray-800 border-b dark:border-gray-700"> 

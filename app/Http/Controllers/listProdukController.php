@@ -28,29 +28,25 @@ class listProdukController extends Controller
         return redirect()->back()->with('success', 'Data berhasil disimpan!');
     }
 
-//  public function simpan(Request $request)
-//     {
-//         $valid = $request->validate([
-//             'nama' => 'required',
-//             'deskripsi' => 'required',
-//             'harga' => 'required',
-//         ]);
-//          if (produk::create($valid)) {
-//              return redirect()->back()->with('success', 'Data Berhasil Disimpan!');}
-//         return redirect('/')->with('gagal', 'Tambah produk gagal.');
-//     }
-
-
-
-
-// public function simpan(Request $request)
-// {
-//     $produk = new Produk;
-//     $produk->nama = $request->input('nama');
-//     $produk->deskripsi = $request->input('deskripsi');
-//     $produk->harga = $request->input('harga');
-//     $produk->save();
-
-//     return redirect()->back()->with('success', 'Data Berhasil Disimpan!');
-// }
-}
+    // public function delete($id){
+    //     $produk = Produk::where('id', $id)->first();
+    //     if ($produk) {
+    //         $produk->delete();
+    //         return redirect()->back()->with('success', 'Produk berhasil dihapus.');
+    //     }
+    //     else {
+    //         return redirect()->back()->with('error', 'Produk tidak ditemukan.');
+    //     }
+    //     }
+    // }
+    public function delete($id){
+        $produk = Produk::where('id', $id)->first();
+        if ($produk) {
+            $produk->delete();
+            return redirect()->back()->with('success', 'Produk berhasil dihapus.');
+        }
+        else {
+            return redirect()->back()->with('error', 'Produk tidak ditemukan.');
+        }
+        }
+    }

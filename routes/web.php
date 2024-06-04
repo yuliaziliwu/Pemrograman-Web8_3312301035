@@ -18,3 +18,4 @@ Route::get('/', function () {
 
 Route::get('/listproduk', [listProdukController::class, 'show'] );
 Route::post('/listproduk', [listProdukController::class, 'simpan'])->name('produk.simpan');
+Route::delete('/listproduk/{id}', [listProdukController::class, 'delete'])->name('produk.delete');
