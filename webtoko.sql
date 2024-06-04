@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 22, 2024 at 12:56 PM
+-- Generation Time: Jun 04, 2024 at 08:49 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -149,7 +149,11 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('trYH02uOIi4FQw3euM4ExIm8HgJEIh3B14vmAupn', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiTlFSbEZKTnpYcFk2NjZyZkp5cFp2RzJjWFV6Q1V4VlNuV0RjdmVLVCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9saXN0cHJvZHVrP3BhZ2U9OCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1716375121);
+('0Uat65vdKl6uF3jJy1rCfLoCgj7PpwxElrfSvl0R', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiOUN3ZnV3N1VpdW9TdXZyWFlSancwUmJBa215THBXZWo2b2NKbnY0YyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9saXN0cHJvZHVrIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319fQ==', 1717468365),
+('4JoAbmHuDhAs0Y3VK7UeqgBMbGG7PRFkIm0FO2Zl', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiTmoycTMwMTRub2g3WXZybzZGUDVmUHhDMnlLY3FPSk1BZnNBSmVhWiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9saXN0cHJvZHVrP3BhZ2U9MSI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1717483580),
+('Ab2MkI1nW0ZVKCG48FpZWJ15sJ8BhjXH4a2s2Sw6', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoid21qT2lURUlzbkZSTlRTNURmVzd6V3FZQmsybVRlcHN1M0lHSXdjdCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1717390245),
+('trYH02uOIi4FQw3euM4ExIm8HgJEIh3B14vmAupn', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiTlFSbEZKTnpYcFk2NjZyZkp5cFp2RzJjWFV6Q1V4VlNuV0RjdmVLVCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9saXN0cHJvZHVrP3BhZ2U9OCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1716375121),
+('z7kYLx1SKIQIdYo6jP8IuJAQH6VaeXoGqZLvLowd', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoidEZ3MnpYWjFldlExdndnRmxyUDRERjF0eEsxM3dQN0tNU3NMWks2bCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mzk6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9saXN0cHJvZHVrP3BhZ2U9OCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1717391720);
 
 -- --------------------------------------------------------
 
@@ -169,9 +173,6 @@ CREATE TABLE `tblproduk` (
 --
 
 INSERT INTO `tblproduk` (`id`, `nama`, `deskripsi`, `harga`) VALUES
-(1, 'Emina Star Lash Aqua Mascara', 'Star Lash Aqua Mascara adalah maskara dengan formula tahan air yang membantu menonjolkan matamu.', 52000),
-(2, 'Wardah EyeXpert Perfectcurl Mascara', 'Maskara ini sendiri memiliki manfaat yaitu curl lock power yang berfungsi membuat bulu mata lebih tebal, lebih lentik dan juga tahan lama saat dipakai, dan breathable yang tahan air, minyak dan keringat sehingga maskara tidak mudah luntur.\r\n', 60350),
-(3, 'Carasun Solar Smart UV - Sun Cushion SPF 50+ PA++++ Refill', 'Carasun Solar Smart UV - Tint Sun Cushion merupakan inovasi 2-in-1 antara sunscreen atau tabir surya atau sunblock dan tinted foundation dalam bentuk BB cushion.\r\n\r\n', 99920),
 (4, 'Gentle Foaming Facial Cleanser', 'Trueve Gentle Foaming Facial Cleanser diformulasikan dengan busa yang lembut sehingga dapat membersihkan kulit tanpa membuatnya kering dan seperti tertarik. Cocok untuk semua jenis kulit termasuk kulit sensitif.\r\n', 32560),
 (5, 'Nacific Super Clean Foam Cleanser', 'Mengandung Kaolin Clay, Tea Tree Leaf Oil, Pappermint Extract, Soda (Sodium Bivarbonate) sebagai kandungan utama. Super Clean Foam Cleanser adalah sahabat terbaik untuk kulit bersihmu!', 151900),
 (6, 'Wardah Everyday Cheek and Lip Tint\r\n', 'Wardah Everyday Cheek and Liptint dengan formula ringan dan aroma fruity yang menyegarkan. ', 52900),
@@ -190,7 +191,8 @@ INSERT INTO `tblproduk` (`id`, `nama`, `deskripsi`, `harga`) VALUES
 (19, 'Lip Fuller Big Diamond', 'Benefit of This Product:\r\n*Long Lasting Volume-Plumping Lips\r\nMemberikan tampilan bibir lebih bervolume dan plumpy yang tahan lama\r\n*Shiny Lips Like Diamond Glitters\r\nBibir lebih berkilau seperti Diamond Glitters\r\n', 269100),
 (20, 'Brylee Orange Blossom Facial Mask', 'Mengandung Aktivitas tinggi molekul kecil esensi Vitamin C, seiring dengan efisien aktivitas antioksidan, masker ini membantu memutihkan dan mencerahkan kulit wajah, menyamarkan noda hitam, menyamarkan noda bekas jerawat, dan mengemba- likan keelastisitasan kulit.', 5700),
 (23, 'test', 'test test test', 9000),
-(24, 'Acne Pore Expert 5x Serum mask (6 pcs)', 'Masker perawatan wajah dengan 5x serum intensif, menyamarkan garis halus dan keriput. Setiap masker diperkaya essence setara 5 botol Firming Serum yang mengandung Peptides, Hyaluronic Acid, Adenosine dan ekstrak Centella Asiatica. Menutrisi secara efektif agar kulit terasa lebih kencang, halus, kenyal dan terhidrasi bahkan sejak pemakaian pertama. Dikembangkan dan disarankan oleh dermatolog Korea', 8999);
+(24, 'Acne Pore Expert 5x Serum mask (6 pcs)', 'Masker perawatan wajah dengan 5x serum intensif, menyamarkan garis halus dan keriput. Setiap masker diperkaya essence setara 5 botol Firming Serum yang mengandung Peptides, Hyaluronic Acid, Adenosine dan ekstrak Centella Asiatica. Menutrisi secara efektif agar kulit terasa lebih kencang, halus, kenyal dan terhidrasi bahkan sejak pemakaian pertama. Dikembangkan dan disarankan oleh dermatolog Korea', 8999),
+(25, 'Missa Airy Fit Sheet Mask Pearl', 'Skin-Fit (melekat di wajah),\r\nPraktis digunakan, menyegarkan, melembabkan,menyerap secara mendalam! Masker Lembaran yang skin-fit\r\n(pas di wajah) dan ramah lingkungan.', 15624);
 
 -- --------------------------------------------------------
 
@@ -304,7 +306,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `tblproduk`
 --
 ALTER TABLE `tblproduk`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `users`
